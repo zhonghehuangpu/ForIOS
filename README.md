@@ -3,7 +3,7 @@
 
 厚啪网络 Objective-C 编码规范
 ======================
-
+![项目结构](https://github.com/zhonghehuangpu/ForIOS/blob/master/readme1.jpeg)
 <a name='TOC'/></a>目录
 ----
 * [命名](#naming)
