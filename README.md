@@ -2,7 +2,39 @@
 厚啪开发规范ForIOS
 
 厚啪网络 Objective-C 编码规范
+
+
+* 项目结构
+    * HPTabBarController
+        * 消息列表HPMessageListViewController
+            * 推荐用户列表HPRecommandUsersViewController
+        * 孤独超市首页HPLonelyShopViewController
+            * 私聊控制器HPChatEmojiPicViewController
+                * 地图HPMapView
+                * 表情控制器HPEmojiViewController
+                * 私聊控制器NTESSessionViewController
+            * 搜索用户HPSearchUserViewController
+            * “我想”人物列表HPWantCollectionViewController
+        * 个人页HPProfileViewController
+            * 照片详情HPPhotoDetailViewController
+            * 修改个人信息HPProfileEditViewController
+            * 选择照片控制器HPPickerViewController
+            * 关注列表HPFollowViewController
+            * 粉丝列表HPFansViewController
+            * 设置HPSettingViewController
+        * 登录HPLoginViewController
+    * 网络请求:继承  HPBaseRequest
+    * 控制器继承:HPBaseViewController
+    * 底部弹出提示:HPMoreOperationViewController
+
+
+
 ======================
+
+
+
+
+
 ![项目结构](https://github.com/zhonghehuangpu/ForIOS/blob/master/readme1.jpeg)
 <a name='TOC'/></a>目录
 ----
